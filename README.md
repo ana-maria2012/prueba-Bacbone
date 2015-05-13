@@ -1,5 +1,7 @@
 # prueba-Backbone
 
+More information: https://www.youtube.com/watch?v=pQE5OGGo6KE
+
 Steps 
 
 1.Create file in a folder where you want to save the project. This file must contain:
