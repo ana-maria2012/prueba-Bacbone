@@ -2,9 +2,11 @@
 
 More information: https://www.youtube.com/watch?v=pQE5OGGo6KE
 
+Install first node.js to begin
+
 Steps 
 
-1.Create file in a folder where you want to save the project. This file must contain:
+1.when de repo is cloned it contain a  file with:
 app.js
 datos.json
 index.html
@@ -38,4 +40,19 @@ backbone(framework): http://backbonejs.org/backbone-min.js
 9. move file fonts into file public
 10. And finally move files js into vendor
 11. Add there files to index.html
-
+12.Add into the file models a file libro.js
+13. call in index.html
+14. add in file libro.js var Libro = Backbone.Model.extend();
+15. in the console of html copy:
+   > var primerLibro = new Libro ({titulo: 'la odisea', autor: 'ana', categoria: 'literatura'});
+    and the method toJSON bring it:
+   > primerLibro.toJSON();
+16.there are two methods to bring dates:
+   > primerLibro.get('titulo'); -> the method GET returns the value of an attribute
+   > primerLibro.set('autor', 'desconocido'); -> method SET It changes the value of an attribute or adding new attributes to a model
+  to see:  > primerLibro._previousAttributes.autor
+The method initialize, es call when a new instad is created(see initialize in libro.js)
+en console see: > var segundoLibro = new Libro();
+The method defaults (see default in libro.js)
+en console see: > var tercerLibro = new Libro({title: "lazarillo a muerto"});
+                > tercerLibro.toJSON();
