@@ -24,7 +24,18 @@ js->vendor
     backbone-> models, collections, views, routers
     init.js
 
-6. Into the file vendor add the dependencies that backbone require to work:
+6. Into the file vendor add the dependencies that backbone require download:
 
-jquery(Help to manipulate the DOM)
+jquery(Help to manipulate the DOM) https://jquery.com/download/
+
+undersore.js(provides a whole mess of useful functional programming helpers without extending any built-in objects):
+http://underscorejs.org/
+
+backbone(framework): http://backbonejs.org/backbone-min.js
+
+7. Add there files to bottom body in the index.html
+8. Download boostrap: move the files css to the project files css
+9. move file fonts into file public
+10. And finally move files js into vendor
+11. Add there files to index.html
 
